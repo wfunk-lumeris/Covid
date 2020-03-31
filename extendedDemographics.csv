@@ -1,0 +1,469 @@
+condition,percent
+Abdominal hernia,0.56%
+Abdominal pain and other digestive/abdomen signs and symptoms,3.97%
+Abnormal findings related to substance use,0.00%
+Abnormal findings without diagnosis,8.36%
+Acquired absence of limb or organ,0.33%
+Acquired deformities (excluding foot),0.12%
+Acquired foot deformities,0.46%
+Acute and chronic tonsillitis,0.23%
+Acute and unspecified renal failure,0.38%
+Acute bronchitis,1.35%
+Acute hemorrhagic cerebrovascular disease,0.07%
+Acute myocardial infarction,0.18%
+Acute phlebitis; thrombophlebitis and thromboembolism,0.29%
+Acute posthemorrhagic anemia,0.12%
+Acute pulmonary embolism,0.16%
+Acute rheumatic heart disease,0.01%
+"Adverse effects of drugs and medicaments, initial encounter",0.39%
+"Adverse effects of drugs and medicaments, subsequent encounter",0.03%
+Alcohol-related disorders,0.20%
+Allergic reactions,0.22%
+"Allergic reactions, subsequent encounter",0.12%
+"Amputation of a limb, initial encounter",0.01%
+"Amputation of a limb, subsequent encounter",0.00%
+Anal and rectal conditions,0.25%
+Anxiety and fear-related disorders,3.71%
+Aortic and peripheral arterial embolism or thrombosis,0.06%
+Aortic; peripheral; and visceral artery aneurysms,0.40%
+Aplastic anemia,1.19%
+Appendicitis and other appendiceal conditions,0.04%
+Arterial dissections,0.03%
+Aseptic necrosis and osteonecrosis,0.03%
+Aspiration pneumonitis,0.03%
+Asthma,2.38%
+Autoinflammatory syndromes,0.00%
+Bacterial infections,0.39%
+Benign neoplasms,2.52%
+Benign ovarian cyst,0.14%
+Biliary tract disease,0.30%
+Biomechanical lesions,0.08%
+Bipolar and related disorders,0.21%
+Birth trauma,0.00%
+Blindness and vision defects,0.52%
+Bone cancer,0.01%
+Breast cancer - all other types,0.59%
+Breast cancer - ductal carcinoma in situ (DCIS),0.07%
+"Burn and corrosion, initial encounter",0.06%
+"Burns and corrosion, subsequent encounter",0.00%
+Calculus of urinary tract,0.41%
+Cancer of other sites,0.00%
+Cannabis-related disorders,0.04%
+Cardiac and circulatory congenital anomalies,0.21%
+Cardiac arrest and ventricular fibrillation,0.03%
+Cardiac cancers,0.00%
+Cardiac dysrhythmias,2.55%
+Carrier status,0.01%
+Cataract and other lens disorders,0.81%
+Cerebral infarction,0.40%
+Cerebral palsy,0.03%
+Chromosomal abnormalities,0.04%
+Chronic kidney disease,2.03%
+Chronic obstructive pulmonary disease and bronchiectasis,1.37%
+Chronic phlebitis; thrombophlebitis and thromboembolism,0.11%
+Chronic rheumatic heart disease,0.24%
+Circulatory signs and symptoms,2.76%
+Cleft lip or palate,0.00%
+CNS abscess,0.00%
+Coagulation and hemorrhagic disorders,0.63%
+Coma; stupor; and brain damage,0.06%
+"Complication of cardiovascular device, implant or graft, initial encounter",0.04%
+"Complication of cardiovascular device, implant or graft, subsequent encounter",0.03%
+"Complication of genitourinary device, implant or graft, initial encounter",0.05%
+"Complication of genitourinary device, implant or graft, subsequent encounter",0.02%
+"Complication of internal orthopedic device or implant, initial encounter",0.04%
+"Complication of internal orthopedic device or implant, subsequent encounter",0.02%
+"Complication of other surgical or medical care, injury, initial encounter",0.11%
+"Complication of other surgical or medical care, injury, subsequent encounter",0.03%
+"Complication of transplanted organs or tissue, initial encounter",0.07%
+"Complication, sequela",0.04%
+Complications of acute myocardial infarction,0.00%
+Complications specified during the puerperium,0.02%
+Conditions due to neoplasm or the treatment of neoplasm,0.17%
+Conduction disorders,0.78%
+"Congenital malformations of eye, ear, face, neck",0.04%
+Contact dermatitis,0.83%
+Contraceptive and procreative management,1.03%
+Cornea and external disease,1.21%
+Coronary atherosclerosis and other heart disease,2.87%
+Counseling related to sexual behavior or orientation,0.03%
+"Crushing injury, initial encounter",0.01%
+"Crushing injury, subsequent encounter",0.00%
+Crystal arthropathies (excluding gout),0.03%
+Cystic fibrosis,0.01%
+Depressive disorders,2.29%
+Diabetes mellitus with complication,3.21%
+Diabetes mellitus without complication,3.48%
+Digestive congenital anomalies,0.05%
+Diseases of inner ear and related conditions,0.31%
+Diseases of middle ear and mastoid (except otitis media),0.34%
+Diseases of mouth; excluding dental,0.52%
+Diseases of white blood cells,0.41%
+"Dislocations, initial encounter",0.06%
+"Dislocations, subsequent encounter",0.02%
+Disorders of jaw,0.11%
+Disorders of lipid metabolism,12.19%
+Disorders of teeth and gingiva,0.21%
+"Disruptive, impulse-control and conduct disorders",0.03%
+Diverticulosis and diverticulitis,0.35%
+Drug induced or toxic related condition,0.36%
+Dysphagia,0.45%
+Early or threatened labor,0.03%
+"Effect of foreign body entering opening, initial encounter",0.09%
+"Effect of foreign body entering opening, subsequent encounter",0.01%
+"Effect of other external causes, initial encounter",0.06%
+"Effect of other external causes, sequela",0.01%
+"Effect of other external causes, subsequent encounter",0.01%
+Encephalitis,0.01%
+Encounter for administrative purposes,0.38%
+Encounter for antineoplastic therapies,0.26%
+Encounter for mental health conditions,0.10%
+"Encounter for observation and examination for conditions ruled out (excludes infectious disease, neoplasm, mental disorders)",2.46%
+Encounter for prophylactic measures (excludes immunization),0.17%
+Encounter for prophylactic or other procedures,0.08%
+Endocarditis and endocardial disease,0.04%
+Endocrine system cancers - adrenocortical,0.00%
+Endocrine system cancers - all other types,0.00%
+Endocrine system cancers - pancreas,0.03%
+Endocrine system cancers - parathyroid,0.00%
+Endocrine system cancers - pituitary gland,0.00%
+Endocrine system cancers - thymus,0.00%
+Endocrine system cancers - thyroid,0.10%
+Endometriosis,0.05%
+Epilepsy; convulsions,0.40%
+Erectile dysfunction,0.52%
+Esophageal disorders,3.19%
+Essential hypertension,12.67%
+"Exposure, encounters, screening or contact with infectious disease",13.74%
+External cause codes: sequela,0.00%
+External cause codes: subsequent encounter,0.00%
+Feeding and eating disorders,0.04%
+Female reproductive system cancers - all other types,0.00%
+Female reproductive system cancers - cervix,0.02%
+Female reproductive system cancers - endometrium,0.06%
+Female reproductive system cancers - fallopian tube,0.00%
+Female reproductive system cancers - ovary,0.04%
+Female reproductive system cancers - uterus,0.03%
+Female reproductive system cancers - vagina,0.00%
+Female reproductive system cancers - vulva,0.01%
+Fetal alcohol syndrome,0.00%
+Fever,0.74%
+Fluid and electrolyte disorders,1.17%
+Foodborne intoxications,0.00%
+"Fracture of head and neck, initial encounter",0.03%
+"Fracture of head and neck, subsequent encounter",0.01%
+"Fracture of lower limb (except hip), subsequent encounter",0.10%
+"Fracture of the lower limb (except hip), initial encounter",0.19%
+"Fracture of the neck of the femur (hip), initial encounter",0.05%
+"Fracture of the neck of the femur (hip), subsequent encounter",0.03%
+"Fracture of the spine and back, initial encounter",0.08%
+"Fracture of the spine and back, subsequent encounter",0.05%
+"Fracture of the upper limb, initial encounter",0.25%
+"Fracture of the upper limb, subsequent encounter",0.14%
+"Fracture of torso, initial encounter",0.08%
+"Fracture of torso, subsequent encounter",0.03%
+Fungal infections,1.12%
+Gangrene,0.01%
+Gastritis and duodenitis,0.32%
+Gastroduodenal ulcer,0.11%
+Gastrointestinal and biliary perforation,0.01%
+Gastrointestinal cancers - all other types,0.01%
+Gastrointestinal cancers - anus,0.02%
+Gastrointestinal cancers - bile duct,0.01%
+Gastrointestinal cancers - colorectal,0.17%
+Gastrointestinal cancers - esophagus,0.02%
+Gastrointestinal cancers - gallbladder,0.00%
+Gastrointestinal cancers - liver,0.05%
+Gastrointestinal cancers - peritoneum,0.00%
+Gastrointestinal cancers - small intestine,0.00%
+Gastrointestinal cancers - stomach,0.02%
+Gastrointestinal hemorrhage,0.53%
+General sensation/perception signs and symptoms,1.23%
+Genitourinary congenital anomalies,0.10%
+Genitourinary signs and symptoms,3.03%
+Glaucoma,0.57%
+Gout,0.53%
+Hallucinogen-related disorders,0.00%
+Head and neck cancers - all other types,0.02%
+Head and neck cancers - eye,0.01%
+Head and neck cancers - hypopharyngeal,0.00%
+Head and neck cancers - laryngeal,0.02%
+Head and neck cancers - lip and oral cavity,0.03%
+Head and neck cancers - nasopharyngeal,0.00%
+Head and neck cancers - pharyngeal,0.00%
+Head and neck cancers - salivary gland,0.01%
+Head and neck cancers - throat,0.01%
+Head and neck cancers - tonsils,0.01%
+Headache; including migraine,1.73%
+Hearing loss,0.99%
+Heart failure,1.14%
+Hematuria,0.79%
+Hemolytic anemia,0.11%
+Hemolytic jaundice and perinatal jaundice,0.00%
+Hemorrhage after first trimester,0.01%
+Hemorrhagic and hematologic disorders of newborn,0.00%
+Hemorrhoids,0.45%
+Hepatic failure,0.03%
+Hepatitis,0.31%
+HIV infection,0.39%
+Hodgkin lymphoma,0.02%
+Hyperplasia of prostate,1.35%
+Hypertension with complications and secondary hypertension,0.34%
+Hypotension,0.23%
+Immune-mediated/reactive arthropathies,0.01%
+Immunity disorders,0.25%
+"Implant, device or graft related encounter",2.06%
+Infective arthritis,0.02%
+Inflammatory conditions of male genital organs,0.13%
+Inflammatory diseases of female pelvic organs,0.53%
+Influenza,0.46%
+Inhalant-related disorders,0.00%
+"Injury to blood vessels, initial encounter",0.00%
+"Injury to blood vessels, subsequent encounter",0.00%
+"Injury to nerves, muscles and tendons, initial encounter",0.17%
+"Injury to nerves, muscles and tendons, subsequent encounter",0.07%
+"Injury, sequela",0.33%
+"Internal organ injury, initial encounter",0.01%
+"Internal organ injury, subsequent encounter",0.00%
+Intestinal infection,0.34%
+Intestinal obstruction and ileus,0.09%
+Invalid PDX,1.08%
+Juvenile arthritis,0.01%
+Leukemia - acute lymphoblastic leukemia (ALL),0.01%
+Leukemia - acute myeloid leukemia (AML),0.01%
+Leukemia - all other types,0.08%
+Leukemia - chronic lymphocytic leukemia (CLL),0.04%
+Leukemia - chronic myeloid leukemia (CML),0.02%
+Leukemia - hairy cell,0.00%
+Lifestyle/life management factors,0.43%
+Low back pain,1.69%
+Lung disease due to external agents,0.03%
+Malaise and fatigue,2.42%
+Male infertility,0.01%
+Male reproductive system cancers - all other types,0.00%
+Male reproductive system cancers - penis,0.00%
+Male reproductive system cancers - prostate,0.46%
+Male reproductive system cancers - testis,0.01%
+"Malignant neoplasm, unspecified",0.05%
+Malignant neuroendocrine tumors,0.03%
+Malnutrition,0.13%
+Maltreatment/abuse,0.01%
+"Maltreatment/abuse, subsequent encounter",0.00%
+Maternal care related to disorders of the placenta and placental implantation,0.03%
+Maternal intrauterine infection,0.00%
+Mediastinal disorders,0.01%
+Medical examination/evaluation,19.39%
+Meningitis,0.01%
+Menopausal disorders,0.63%
+Menstrual disorders,0.79%
+Mental and substance use disorders in remission,0.32%
+Mesothelioma,0.00%
+Miscellaneous mental and behavioral disorders/conditions,0.15%
+Multiple gestation,0.01%
+Multiple myeloma,0.12%
+Multiple sclerosis,0.13%
+Muscle disorders,0.38%
+Musculoskeletal abscess,0.00%
+Musculoskeletal congenital conditions,0.12%
+"Musculoskeletal pain, not low back pain",6.45%
+Myelodysplastic syndrome (MDS),0.04%
+Myocarditis and cardiomyopathy,0.39%
+Myopathies,0.05%
+Nausea and vomiting,0.79%
+Neonatal acidemia and hypoxia,0.00%
+Neonatal cerebral disorders,0.00%
+Neonatal digestive and feeding disorders,0.00%
+Neoplasm-related encounters,8.03%
+Neoplasms of unspecified nature or uncertain behavior,1.10%
+Nephritis; nephrosis; renal sclerosis,0.05%
+Nerve and nerve root disorders,0.73%
+Nervous system cancers - all other types,0.00%
+Nervous system cancers - brain,0.02%
+Nervous system congenital anomalies,0.04%
+Nervous system pain and pain syndromes,3.42%
+Nervous system signs and symptoms,2.00%
+Neuro-ophthalmology,0.07%
+Neurocognitive disorders,0.59%
+Neurodevelopmental disorders,1.22%
+Neurogenic/neuropathic arthropathy,0.01%
+Newborn affected by maternal conditions or complications of labor/delivery,0.00%
+No immunization or underimmunization,0.19%
+Non-Hodgkin lymphoma,0.14%
+Non-pressure ulcer of skin,0.28%
+Noninfectious gastroenteritis,0.51%
+Noninfectious hepatitis,0.12%
+Nonmalignant breast conditions,0.73%
+Nonrheumatic and unspecified valve disorders,1.25%
+Nonspecific chest pain,1.79%
+Nutritional anemia,1.40%
+Nutritional deficiencies,4.15%
+Obesity,3.71%
+Obsessive-compulsive and related disorders,0.06%
+Occlusion or stenosis of precerebral or cerebral arteries without infarction,0.65%
+Oculofacial plastics and orbital conditions,0.48%
+"Open wounds of head and neck, initial encounter",0.16%
+"Open wounds of head and neck, subsequent encounter",0.04%
+"Open wounds of trunk, initial encounter",0.02%
+"Open wounds of trunk, subsequent encounter",0.01%
+"Open wounds to limbs, initial encounter",0.28%
+"Open wounds to limbs, subsequent encounter",0.07%
+Opioid-related disorders,0.08%
+Organ transplant status,0.21%
+Osteoarthritis,2.97%
+Osteomalacia,0.01%
+Osteomyelitis,0.07%
+Osteoporosis,1.22%
+Other aftercare encounter,0.99%
+Other and ill-defined cerebrovascular disease,0.13%
+Other and ill-defined heart disease,0.38%
+Other specified and unspecified circulatory disease,0.42%
+Other specified and unspecified congenital anomalies,0.11%
+Other specified and unspecified diseases of bladder and urethra,0.32%
+Other specified and unspecified diseases of kidney and ureters,0.97%
+Other specified and unspecified disorders of stomach and duodenum,0.17%
+Other specified and unspecified disorders of the ear,1.61%
+Other specified and unspecified endocrine disorders,0.85%
+Other specified and unspecified gastrointestinal disorders,2.04%
+Other specified and unspecified hematologic conditions,0.18%
+Other specified and unspecified liver disease,0.71%
+Other specified and unspecified lower respiratory disease,0.52%
+Other specified and unspecified mood disorders,0.22%
+Other specified and unspecified nutritional and metabolic disorders,1.87%
+Other specified and unspecified perinatal conditions,0.01%
+Other specified and unspecified skin disorders,4.45%
+Other specified and unspecified upper respiratory disease,2.57%
+Other specified bone disease and musculoskeletal deformities,1.21%
+Other specified chronic arthropathy,0.00%
+Other specified CNS infection and poliomyelitis,0.01%
+Other specified connective tissue disease,2.12%
+Other specified diseases of veins and lymphatics,0.24%
+Other specified encounters and counseling,1.34%
+Other specified eye disorders,0.21%
+Other specified female genital disorders,0.91%
+Other specified hereditary and degenerative nervous system conditions,0.27%
+Other specified inflammatory condition of skin,2.37%
+Other specified injury,0.03%
+"Other specified injury, subsequent encounter",0.01%
+Other specified joint disorders,0.70%
+Other specified male genital disorders,0.35%
+Other specified nervous system disorders,0.28%
+Other specified status,6.56%
+Other specified substance-related disorders,0.05%
+Other specified upper respiratory infections,4.16%
+"Other unspecified injuries, subsequent encounter",0.05%
+Other unspecified injury,0.75%
+Otitis media,1.02%
+Pancreatic disorders (excluding diabetes),0.17%
+Paralysis (other than cerebral palsy),0.11%
+"Parasitic, other specified and unspecified infections",0.11%
+Parkinson`s disease,0.21%
+"Pathological fracture, initial encounter",0.01%
+"Pathological fracture, subsequent encounter",0.05%
+"Pathological, stress and atypical fractures, sequela",0.03%
+Pericarditis and pericardial disease,0.06%
+Perinatal infections,0.00%
+Peripheral and visceral vascular disease,0.99%
+Peritonitis and intra-abdominal abscess,0.04%
+Personal/family history of disease,5.53%
+Personality disorders,0.05%
+Pituitary disorders,0.13%
+"Pleurisy, pleural effusion and pulmonary collapse",0.17%
+Pneumonia (except that caused by tuberculosis),0.61%
+Pneumothorax,0.01%
+"Poisoning by drugs, initial encounter",0.03%
+"Poisoning by drugs, subsequent encounter",0.00%
+"Poisoning/toxic effect/adverse effects/underdosing, sequela",0.02%
+Polyhydramnios and other problems of amniotic cavity,0.02%
+Polyneuropathies,0.53%
+Postprocedural or postoperative circulatory system complication,0.01%
+Postprocedural or postoperative complications of the spleen,0.00%
+Postprocedural or postoperative digestive system complication,0.09%
+Postprocedural or postoperative ear and/or mastoid process complication,0.00%
+Postprocedural or postoperative endocrine or metabolic complication,0.24%
+Postprocedural or postoperative eye complication,0.00%
+Postprocedural or postoperative genitourinary system complication,0.03%
+Postprocedural or postoperative musculoskeletal system complication,0.08%
+Postprocedural or postoperative nervous system complication,0.00%
+Postprocedural or postoperative respiratory system complication,0.01%
+Postprocedural or postoperative skin complication,0.01%
+Postthrombotic syndrome and venous insufficiency/hypertension,0.47%
+Pressure ulcer of skin,0.10%
+Prolapse of female genital organs,0.17%
+Proteinuria,0.43%
+Pulmonary heart disease,0.30%
+Refractive error,0.25%
+Regional enteritis and ulcerative colitis,0.31%
+Resistance to antimicrobial drugs,0.01%
+Respiratory cancers,0.17%
+Respiratory congenital malformations,0.01%
+Respiratory distress syndrome,0.00%
+Respiratory failure; insufficiency; arrest,0.23%
+Respiratory perinatal condition,0.00%
+Respiratory signs and symptoms,5.48%
+Retinal and vitreous conditions,0.61%
+Rheumatoid arthritis and related disease,0.37%
+Sarcoma,0.02%
+Schizophrenia spectrum and other psychotic disorders,0.18%
+Scoliosis and other postural dorsopathic deformities,0.20%
+Screening for neurocognitive or neurodevelopmental condition,0.00%
+Secondary malignancies,0.23%
+Sedative-related disorders,0.01%
+Septicemia,0.15%
+Sequela of cerebral infarction and other cerebrovascular disease,0.14%
+Sequela of hemorrhagic cerebrovascular disease,0.01%
+Sequela of malnutrition and other nutritional deficiencies,0.00%
+Sequela of specified infectious disease conditions,0.01%
+Sequela of specified nervous system conditions,0.00%
+Sexually transmitted infections (excluding HIV and hepatitis),0.25%
+Shock,0.01%
+Short gestation; low birth weight; and fetal growth retardation,0.02%
+Sickle cell trait/anemia,0.04%
+Sinusitis,2.15%
+Skin and subcutaneous tissue infections,1.13%
+Skin cancers - all other types,0.08%
+Skin cancers - basal cell carcinoma,0.21%
+Skin cancers - melanoma,0.10%
+Skin cancers - squamous cell carcinoma,0.12%
+Skin/Subcutaneous signs and symptoms,2.30%
+Sleep wake disorders,3.47%
+Socioeconomic/psychosocial factors,0.22%
+Somatic disorders,0.09%
+"Spinal cord injury (SCI), initial encounter",0.00%
+"Spinal cord injury (SCI), subsequent encounter",0.00%
+Spondylopathies/spondyloarthropathy (including infective),3.85%
+Spontaneous abortion and complications of spontaneous abortion,0.03%
+"Sprains and strains, initial encounter",0.98%
+"Sprains and strains, subsequent encounter",0.18%
+Stimulant-related disorders,0.03%
+Strabismus,0.07%
+"Stress fracture, initial encounter",0.03%
+"Stress fracture, subsequent encounter",0.01%
+Suicidal ideation/attempt/intentional self-harm,0.03%
+Suicide attempt/intentional self-harm; subsequent encounter,0.00%
+"Superficial injury; contusion, initial encounter",0.72%
+"Superficial injury; contusion, subsequent encounter",0.07%
+Symptoms of mental and substance use conditions,0.19%
+Syncope,0.57%
+Systemic lupus erythematosus and connective tissue disorders,0.33%
+Tendon and synovial disorders,1.15%
+Thyroid disorders,4.11%
+Tobacco-related disorders,0.66%
+"Toxic effects, initial encounter",0.05%
+"Toxic effects, subsequent encounter",0.01%
+Transient cerebral ischemia,0.18%
+Trauma- and stressor-related disorders,0.71%
+Traumatic arthropathy,0.01%
+"Traumatic brain injury (TBI); concussion, initial encounter",0.10%
+"Traumatic brain injury (TBI); concussion, subsequent encounter",0.04%
+Tuberculosis,0.01%
+Urinary incontinence,0.72%
+Urinary system cancers - all other types,0.01%
+Urinary system cancers - bladder,0.10%
+Urinary system cancers - kidney,0.07%
+Urinary system cancers - ureter and renal pelvis,0.01%
+Urinary system cancers - urethra,0.00%
+Urinary tract infections,1.53%
+Uveitis and ocular inflammation,0.03%
+Varicose veins of lower extremity,0.42%
+Vesicoureteral reflux,0.01%
+Viral infection,1.84%
