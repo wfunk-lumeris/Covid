@@ -81,9 +81,9 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
 |          Moderate (50% reduction in hospitalizations) | $1,382 | $450 |
 |          High (75% reduction in hospitalizations) | $2,073 | $676 |
 
-* ^ Clinical success refers to the percentage reduction in hospitalizations due to the outreach, assumed to be a reduction in hospitalizations by either 25%, 50%, or 75% *
-* Assumes COVID-19 hospitalization costs $20,000 based on approximately $2,200/day for 9 days *
-* All values in US dollar* 
+* ^ Clinical success refers to the percentage reduction in hospitalizations due to the outreach, assumed to be a reduction in hospitalizations by either 25%, 50%, or 75%.  For example, an organization that uses these predictive analytics to outreach to the Top 1% highest risk people, and has the ability to reduce hospitalizations by 50%, can spend up to $1,382 on achieving that outcome and still breakeven (this analysis does not accounting for reimbursement by payers, relieve funding from the US government, or other complexities; but this analysis does provide a basis for decision-making regarding the amount of money to spend on outreach). 
+* Assumes COVID-19 hospitalization costs $20,000 based on approximately $2,200/day for 9 days 
+* All values in US dollar
 
 
 If you have questions or suggestions please send an email to: [Covid Predictive Analytics](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics). 
