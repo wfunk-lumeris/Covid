@@ -1,6 +1,6 @@
 # Lumeris' COVID-19 Predictive Analytics
  
-'''We understand that you, your staff, and your community are under stress during this time and we wish to do our part to help you care for your sickest patients.  We know that in some communities, PCPs and clinic staff are being under-utilized; we see opportunities for those teams to support proactive management to keep people as healthy as possible and at home.  This of course helps reduce constraints on valuable hospital beds and medical equipment including ventilators.
+We understand that you, your staff, and your community are under stress during this time and we wish to do our part to help you care for your sickest patients.  We know that in some communities, PCPs and clinic staff are being under-utilized; we see opportunities for those teams to support proactive management to keep people as healthy as possible and at home.  This of course helps reduce constraints on valuable hospital beds and medical equipment including ventilators.
 
 This page describes Lumeris' COVID-19 predictive analytics program, provides links to our code repository, and offers the actual model for free within your own EHR.  The predictive model identifies people with a high risk of COVID-related adverse events such as emergency hospitalizations.  We are assessing the possibility of future updates that may include additional adverse events such as likelihood of ICU and death or other tools to aid with managing the COVID-19 crisis.  Medical and/or non-medical staff (such as social workers) at private and public health systems, provider offices, and clinics can outreach to these high-risk people proactively.  It is expected that through that engagement the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood that the person can remain at home sheltered-in-place. 
 
@@ -13,7 +13,7 @@ All of the information here including in the associated support pages, and on Gi
 ## Instructions
 **This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into most EHRs manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).**
 
-The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv).'''
+The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv).
 
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
