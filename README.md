@@ -36,7 +36,7 @@ The number of people in the validation dataset is 789k.  Data is from January 20
 
 Additional information on the demographics is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/extendedDemographics.xlsx). 
 
-In preparing our work we noticed that there are other organizations creating and releasing free open source models.  We did some basic due diligence on one model that seems to have gotten some traction in the marketplace.  But when we tested it across our whole population we found that the accuracy of that model for people who are under age 65 yo is worse than random chance.  Providers would be **better off not using a model at all**!!!  We don’t know the exact reason for this issue, but we suspect that it is because their model was based on CMS claims data from 2015 and 2016, a dataset that primarily has people who are over age 65 yo.  We notified this company privately but do not know their response yet. 
+In preparing our work we noticed that there are other organizations creating and releasing free open source models.  We did some basic due diligence on one model that seems to have gotten some traction in the marketplace.  But when we tested it across our whole population we found that **the accuracy of that model for people who are under age 65 yo is worse than random chance.  Given this, providers would be better off not using that model at all!!!**  We don’t know the exact reason for this issue, but we suspect that it is because their model was based on CMS claims data from 2015 and 2016, a dataset that primarily has people who are mostly over the age 65 yo.  We notified this company privately but do not know their response yet. 
 
 ### Model Details 
 
