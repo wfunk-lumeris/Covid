@@ -103,3 +103,9 @@ For comparison we did the same breakeven analysis using model based on the data 
 
 **If you have questions or suggestions please send an email to: [Covid Predictive Analytics](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics).**
 
+**If you’d like updates when we make improvements to this model, or have new models, just click the following link for [UPDATES](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics%20UPDATES).**
+
+
+
+
+
