@@ -58,13 +58,13 @@ We evaluate performance using standard statistical tools applied to validation o
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
 | 0.833 |     0.141 | 0.138 | 0.387 | 0.075 |
 
-The receiver operator characteristics (ROC) curve is [here](https://github.com/Lumeris-Health/Covid/blob/master/roc.png).  
+The receiver operator characteristics (ROC) curve is below: 
 
 ![alt text][logo]
 
 [logo]: https://github.com/Lumeris-Health/Covid/blob/master/roc.png "Covid Model 1 ROC"
 
-And additional information on the performance is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
+The results are also available as a table [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
 
 The performance of our model is relatively strong.  As a check we compared the performance of our model to one built from data published in that Lancet article mentioned [above](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext).  These are the performance statistics for that model to predict hospitalizations:
 
