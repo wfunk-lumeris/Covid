@@ -99,6 +99,7 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
 * All values in US dollars
 
 For comparison we did the same economic analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy meant that the organization had a smaller amount of money they could spend and still come out ahead.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 46% less money available ($1382 vs $740) to achieve their 50% effectiveness rate.  The details for that comparator model are in the table below:
+
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
 | Clinical Success: | | |
@@ -107,7 +108,7 @@ For comparison we did the same economic analysis using model based on the data i
 |          High (75% reduction in hospitalizations) | $1,110 | $443 |
 
 
-Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing.  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
+Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
 
 
 
