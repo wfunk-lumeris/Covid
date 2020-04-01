@@ -38,11 +38,9 @@ Additional information on the demographics is available in Github [here](https:/
 
 ### Model Details 
 
-The model for this release was trained and tested on a collection of contemporary data from different health systems scattered across the US.  It is intended to work well on data available either in the EHR or from administrative claims data (all performance characteristics reported here are based on EHR data). 
+The model for this release was trained and tested on a collection of contemporary data from different health systems scattered across the US.  We trained models on both the likelihood of hospitalization and the likelihood of hospitalization due to COVID-19.  It is intended to work well on data available either in the EHR or from administrative claims data (all performance characteristics reported here are based on EHR data). 
 
-We trained models on both the likelihood of hospitalization and the likelihood of hospitalization due to COVID-19 ([details of COVID data](https://github.com/Lumeris-Health/Covid/blob/master/covidCasesAlgorithm.pdf)). 
-
-Additional information about this model are available in our [public Github repository](https://github.com/Lumeris-Health/Covid).   
+Additional information is below and in our [public Github repository](https://github.com/Lumeris-Health/Covid).   
 
 ### Model Performance 
 
