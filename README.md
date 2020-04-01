@@ -16,7 +16,7 @@ The model variables and points in the PDF are also viewable/downloadable in Exce
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
 
-This is a simple model with just 20 variables that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is not just for ED visits that are followed by a discharge).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and on March 11 in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
+This is a simple model with just 17 variables that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is not just for ED visits that are followed by a discharge).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and on March 11 in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
 
 ### Applicable Population 
 
@@ -70,6 +70,8 @@ We performed a good faith effort to apply that model in the best way possible, b
 
 There may be important details from that published paper that make such a comparison specious, but it nevertheless helped us believe that we were contributing to society by publishing our model.
 
+Predictive modeling accuracy is an important factor and not academic:  Lower accuracy means that resources are wasted on people who are not truly high risk, and lower accuracy means that fewer people who are truly high risk will be correctly identified.  At the risk of being overly-dramatic, in our COVID-19 crisis this lower accuracy can translate to more deaths.
+
 Given the model performance above, economic modeling of the breakeven costs shows that providers will “come out ahead” economically if his/her engagement outreach to the top 1% is moderately effective and costs less than $1,382 (the breakeven for low and highly successful programs is $691 and $2,073, respectively).  Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home and avoid adverse events. 
 
 The breakeven point for the cost of interventions toward the Top 1% and Top 5% are shown in the table below: 
@@ -84,6 +86,14 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
 * ^ Clinical success refers to the percentage reduction in hospitalizations due to the outreach, assumed to be a reduction in hospitalizations by either 25%, 50%, or 75%.  For example, an organization that uses these predictive analytics to outreach to the Top 1% highest risk people, and has the ability to reduce hospitalizations by 50%, can spend up to $1,382 on achieving that outcome and still breakeven (this analysis does not accounting for reimbursement by payers, relieve funding from the US government, or other complexities; but this analysis does provide a basis for decision-making regarding the amount of money to spend on outreach). 
 * Assumes COVID-19 hospitalization costs $20,000 based on approximately $2,200/day for 9 days 
 * All values in US dollar
+
+For comparison we did the same breakeven analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy resulted in lower breakeven points.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 46% less money available ($1382 vs $740) to achieve their 50% effectiveness rate.  The details are in the table below:
+ | Characteristic | Top 1%  | Top 5%  |
+| :------------- |:-------------:| :-------------:|
+| Clinical Success^: | | |
+|          Low effectiveness (25% reduction in hospitalizations) | $370 | $148 |
+|          Moderate (50% reduction in hospitalizations) | $740 | $295 |
+|          High (75% reduction in hospitalizations) | $1,110 | $443 |
 
 
 If you have questions or suggestions please send an email to: [Covid Predictive Analytics](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics). 
