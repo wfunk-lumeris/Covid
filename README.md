@@ -11,7 +11,7 @@ The analytics can be deployed within any EHR's population health platform includ
 All of the information here including in the associated support pages, and on Github, is being made freely-available under our [open source license](https://github.com/Lumeris-Health/Covid/blob/master/LICENSE).   
 
 ## Instructions
-**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into almost any EHR manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).
+**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into almost any EHR manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).**
 
 The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv).
 
@@ -94,14 +94,17 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
 For comparison we did the same breakeven analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy resulted in lower breakeven points.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 46% less money available ($1382 vs $740) to achieve their 50% effectiveness rate.  The details are in the table below:
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
-| Clinical Success^: | | |
+| Clinical Success: | | |
 |          Low effectiveness (25% reduction in hospitalizations) | $370 | $148 |
 |          Moderate (50% reduction in hospitalizations) | $740 | $295 |
 |          High (75% reduction in hospitalizations) | $1,110 | $443 |
 
 
 
+
+
 **If you have questions or suggestions please send an email to: [Covid Predictive Analytics](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics).**
+
 
 **If you’d like updates when we make improvements to this model, or have new models, just click the following link for [UPDATES](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics%20UPDATES).**
 
