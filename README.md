@@ -115,7 +115,7 @@ Taken together, these analyses support our view that our model will improve the 
 
 
 
-**Do you want model updates?  If you want updates for when we make improvements to this model, or have new models available, just like the following link:  [UPDATES](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics%20UPDATES).**
+**Do you want model updates?  Click the following link if you want updates for when we make improvements to this model or have new ones available:  [UPDATES](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics%20UPDATES).**
 
 
 
