@@ -8,7 +8,7 @@ Medical and/or non-medical staff (such as social workers) at private and public 
 
 This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, every 100 people proactively engaged will save 42 bed days/month.
 
-The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from data published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  And applying the same outreach assumptions and simply guessing would most likely only save about 3 bed days/month.
+The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save about 3 bed days/month.
 
 The predictive models can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
 
@@ -22,7 +22,7 @@ All of the information here including in the associated support pages, and on Gi
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
 
-This is a simple model with just [18 variables](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv) that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is for ED visits that are followed by a discharge, not just standalone ED visits).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and on March 11 in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
+This is a simple model with just [18 variables](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv) that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is for ED visits that are followed by a discharge, not just standalone ED visits).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
 
 ### Applicable Population 
 
@@ -65,13 +65,13 @@ The receiver operator characteristics (ROC) curve is below:
 
 The results are also available as a table [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
 
-The performance of our model is relatively strong.  As a check we compared the performance of our model to one built from data published in that Lancet article mentioned [above](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext).  These are the performance statistics for that model to predict hospitalizations:
+The performance of our model is relatively strong.  As a check on ourselves and to ascertain whether we were adding value if we released our model, we compared the performance of our model to one built from the criteria published in that Lancet article mentioned.  To be clear, and to emphasize, we created a model using just the variables listed in that article, which we refer to as the "Challenger Model", and it was **not** the case that the authors of the article published a model.  With this as context, these are the performance statistics for the Challenger Model to predict hospitalizations:
 
  | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
 | 0.732 |     0.058 | 0.047 | 0.202 | 0.032 |
 
-We performed a good faith effort to apply that model in the best way possible, but nevertheless in comparing the performance between those two models, our model outpeformed the comparator model by a considerable amount.  This table shows the percent outperformance between our model and the one published in The Lancet:
+In comparing the performance between our model and the Challenger Model, our model outpeformed the comparator model by a considerable amount.  This table shows the percent outperformance between our model and the one published in The Lancet:
 
 | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
@@ -79,9 +79,13 @@ We performed a good faith effort to apply that model in the best way possible, b
 
 There may be important details from that published paper that make such a comparison specious, but it nevertheless helped us believe that we were contributing positively to the healthcare community and society at large by publishing our model.
 
-Given the model performance above, economic modeling of the breakeven costs shows that providers will “come out ahead” economically if they use our models.
+Another way to look at performance is to look at the model's accuracy in combination with real-world outreach activities.  The real-world situation was where we assumed clinical or social service outreach would reduce have a low impact (25% reduction in admissions), moderate impact (50% reduction), or high impact (75% reduction). We looked at these conditions two ways:
+1. Breakeven costs to deliver services,
+2. Potential impact on the number of bed days/month.  
 
-We converted the breakeven analysis to answer the question, if an organization's effectiveness at reducing admission turns out to be low (they can reduce admissions 25%), moderate (50%), or high (75%), how much money can they spend on the proactive outreach and still come out ahead?  The **higher that dollar amount the better the predictive model** since there would be more money to spend and still be "profitable".  Our analysis showed that for an organization that's moderately effective at reducing admission (50% effective) for people in the Top 1% highest risk group, they can still come out ahead using our model if they spend up to $1,382 per person (the estimated breakeven for low and highly successful programs is $691 and $2,073, respectively).  
+The economic analysis, which relied on simplistic assumptions, showed that providers will “come out ahead” economically if they use our models.
+
+In other words we answered, if an organization's effectiveness at reducing admission turns out to be low, moderate, or high, how much money can they spend on the proactive outreach and still come out ahead?  The **higher that dollar amount the better the predictive model** since there would be more money to spend and still be "profitable".  Our analysis showed that for an organization that's moderately effective at reducing admission (50% effective) for people in the Top 1% highest risk group, they can still come out ahead using our model if they spend up to $1,382 per person (the estimated breakeven for low and highly successful programs is $691 and $2,073, respectively).  
 
 Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can generally spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
 
@@ -90,7 +94,7 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
 | Clinical Success^: | | |
-|          Low effectiveness (25% reduction in hospitalizations) | $691 | $225 |
+|          Low (25% reduction in hospitalizations) | $691 | $225 |
 |          Moderate (50% reduction in hospitalizations) | $1,382 | $450 |
 |          High (75% reduction in hospitalizations) | $2,073 | $676 |
 
@@ -103,9 +107,21 @@ For comparison we did the same economic analysis using model based on the data i
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
 | Clinical Success: | | |
-|          Low effectiveness (25% reduction in hospitalizations) | $370 | $148 |
+|          Low (25% reduction in hospitalizations) | $370 | $148 |
 |          Moderate (50% reduction in hospitalizations) | $740 | $295 |
 |          High (75% reduction in hospitalizations) | $1,110 | $443 |
+
+Again, those economic analyses are overly simplistic; but hopefully this information can be combined with an organizations' specific data to help decision-makers assess the value of proactive outreach. 
+
+We also looked at the impact of proactive outreach on hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, every 100 people proactively engaged will save 42 bed days/month.  Using these same assumptions, using the Challenger Model described above there is only a reduction of 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save about 3 bed days/month.
+
+The impact that proactive outreach with a low, moderate, and high reduction on hospitalizations and subsequent bed days/month is shown in the table below:
+
+| Clinical Success | Guessing | Challenger Model | This Model
+| :------------- |:-------------:|:-------------:|:-------------:|:-------------:|
+| Low (25% reduction in hospitalizations) |    3.1% | 23% | 42% |
+| Moderate (50% reduction in hospitalizations) | 6.3% | 48% | 84% |
+| High (75% reduction in hospitalizations) | 9.4% | 71% | 127% |
 
 
 Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
