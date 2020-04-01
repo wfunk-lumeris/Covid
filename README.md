@@ -4,7 +4,7 @@ We understand that you, your staff, and your community are under stress during t
 
 This page describes Lumeris' COVID-19 predictive analytics program, provides links to our code repository, and offers the actual model for free within your own EHR.  The predictive model identifies people at highest risk of COVID-related adverse events such as emergency hospitalizations (our next update will have other adverse events such as likelihood of ICU and death).  Medical and/or non-medical staff (such as social workers) at private and public health systems, provider organizations, and clinics can outreach to these high-risk people proactively.  It is expected that through that engagement that the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood of that the person can remain at home sheltered-in-place. 
 
-The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, or messages via the EHR patient portal. 
+The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, or messages via the EHR's patient portal. 
 
 The analytics can be deployed within any EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In additional, this first model release has analytics that were simplified such that most any authorized EHR user can enter the parameters; staff from the IT Department aren’t necessarily required.   
 
@@ -105,13 +105,17 @@ For comparison we did the same breakeven analysis using model based on the data 
 |          High (75% reduction in hospitalizations) | $1,110 | $443 |
 
 
+Taken together, these analyses support our view that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
+
+
 
 
 
 **If you have questions or suggestions please send an email to: [Covid Predictive Analytics](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics).**
 
 
-**If you’d like updates when we make improvements to this model, or have new models, just click the following link for [UPDATES](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics%20UPDATES).**
+
+**Do you want model updates?  If you want updates for when we make improvements to this model, or have new models available, just like the following link:  [UPDATES](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics%20UPDATES).**
 
 
 
