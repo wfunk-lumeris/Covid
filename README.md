@@ -117,8 +117,8 @@ We also looked at the impact of proactive outreach on hospital bed capacity:  Fo
 
 The impact that proactive outreach with a low, moderate, and high reduction on hospitalizations and subsequent bed days/month is shown in the table below:
 
-| Clinical Success | Guessing | Challenger Model | This Model
-| :------------- |:-------------:|:-------------:|:-------------:|:-------------:|
+| Clinical Success | Guessing | Challenger Model | This Model |
+| :------------- |:-------------:|:-------------:|:-------------:|
 | Low (25% reduction in hospitalizations) |    3.1% | 23% | 42% |
 | Moderate (50% reduction in hospitalizations) | 6.3% | 48% | 84% |
 | High (75% reduction in hospitalizations) | 9.4% | 71% | 127% |
