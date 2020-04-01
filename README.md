@@ -1,4 +1,4 @@
-# COVID-19 Predictive Analytics
+# Lumeris' COVID-19 Predictive Analytics
  
 We understand that you, your staff, and your community are under stress during this time and we wish to do our part to help you care for your sickest patients.  We know that in some communities, PCPs and clinic staff are being under-utilized; we see opportunities for those teams to support proactive management to keep people as healthy as possible and at home.  This of course helps reduce constraints on valuable hospital beds and medical equipment including ventilators.
 
@@ -58,7 +58,13 @@ We evaluate performance using standard statistical tools applied to validation o
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
 | 0.833 |     0.141 | 0.138 | 0.387 | 0.075 |
 
-The receiver operator characteristics (ROC) curve is [here](https://github.com/Lumeris-Health/Covid/blob/master/roc.png).  And additional information on the performance is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
+The receiver operator characteristics (ROC) curve is [here](https://github.com/Lumeris-Health/Covid/blob/master/roc.png).  
+
+![alt text][logo]
+
+[logo]: https://github.com/Lumeris-Health/Covid/blob/master/roc.png "Covid Model 1 ROC"
+
+And additional information on the performance is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
 
 The performance of our model is relatively strong.  As a check we compared the performance of our model to one built from data published in that Lancet article mentioned [above](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext).  These are the performance statistics for that model to predict hospitalizations:
 
