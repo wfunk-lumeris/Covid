@@ -42,9 +42,9 @@ Note: The dataset used to train models can impact outcomes and efficacy of inter
 
 ### Model Details 
 
-The model for this release was trained and tested on a collection of contemporary (1/1/2018 to present) data from different health systems scattered across the US.  It is intended to work well on data available either in the EHR or from administrative claims data (although all performance characteristics reported here are based on EMR data). 
+The model for this release was trained and tested on a collection of contemporary data from different health systems scattered across the US.  It is intended to work well on data available either in the EHR or from administrative claims data (all performance characteristics reported here are based on EHR data). 
 
-We trained models on both the likelihood of hospitalization and the likelihood of hospitalization due to COVID ([details of COVID data](https://github.com/Lumeris-Health/Covid/blob/master/covidCasesAlgorithm.pdf)). 
+We trained models on both the likelihood of hospitalization and the likelihood of hospitalization due to COVID-19 ([details of COVID data](https://github.com/Lumeris-Health/Covid/blob/master/covidCasesAlgorithm.pdf)). 
 
 Additional information about this model are available in our [public Github repository](https://github.com/Lumeris-Health/Covid).   
 
