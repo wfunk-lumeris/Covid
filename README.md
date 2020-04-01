@@ -11,7 +11,7 @@ All of the information here including in the associated support pages, including
 ## Instructions
 This model was purposely made simple to use a points system analogous to Weight Watchers so that it can be typed into most any EHR manually by a person who is non-technical. For example, the model variables and points can be typed directly into Healthy Planet to create a patient registry.  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf). 
 
-The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.xlsx).
+The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv).
 
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
@@ -34,7 +34,7 @@ The number of people in the validation dataset is 789k.  Data is from January 20
 | Hypertension | 12.8% |
 | Hospitalizations | 1.26% or 12.6 per 1000 |
 
-Additional information on the demographics is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/extendedDemographics.xlsx). 
+Additional information on the demographics is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/extendedDemographics.csv). 
 
 In preparing our work we noticed that there are other organizations creating and releasing free open source models.  We did some basic due diligence on one model that seems to have gotten some traction in the marketplace.  But when we tested it across our whole population we found that **the accuracy of that model for people who are under age 65 yo is worse than random chance.  Given this, providers would be better off not using that model at all!!!**  We don’t know the exact reason for this issue, but we suspect that it is because their model was based on CMS claims data from 2015 and 2016, a dataset that primarily has people who are mostly over the age 65 yo.  We notified this company privately but do not know their response yet. 
 
@@ -54,7 +54,7 @@ We evaluate performance using standard statistical tools applied to validation o
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
 | 0.833 |     0.141 | 0.138 | 0.387 | 0.075 |
 
-The receiver operator characteristics (ROC) curve is [here](https://github.com/Lumeris-Health/Covid/blob/master/all.png).  And additional information on the performance is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
+The receiver operator characteristics (ROC) curve is [here](https://github.com/Lumeris-Health/Covid/blob/master/roc.png).  And additional information on the performance is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
 
 The performance of our model is relatively strong.  As a check we compared the performance of our model to one built from data published in that Lancet article mentioned [above](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext).  These are the performance statistics for that model to predict hospitalizations:
 
