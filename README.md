@@ -59,7 +59,6 @@ We evaluate performance using standard statistical tools applied to validation o
 | 0.833 |     0.141 | 0.138 | 0.387 | 0.075 |
 
 The receiver operator characteristics (ROC) curve is below: 
-
 ![alt text][logo]
 
 [logo]: https://github.com/Lumeris-Health/Covid/blob/master/roc.png "Covid Model 1 ROC"
