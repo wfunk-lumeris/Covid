@@ -2,16 +2,16 @@
  
 We understand that you, your staff, and your community are under stress during this time and we wish to do our part to help you care for your sickest patients.  We know that in some communities, PCPs and clinic staff are being under-utilized; we see opportunities for those teams to support proactive management to keep people as healthy as possible and at home.  This of course helps reduce constraints on valuable hospital beds and medical equipment including ventilators.
 
-This page describes Lumeris' COVID-19 predictive analytics program, provides links to our code repository, and offers the actual model for free within your own EHR.  The predictive model identifies people at highest risk of COVID-related adverse events such as emergency hospitalizations (our next update will have other adverse events such as likelihood of ICU and death).  Medical and/or non-medical staff (such as social workers) at private and public health systems, provider organizations, and clinics can outreach to these high-risk people proactively.  It is expected that through that engagement that the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood of that the person can remain at home sheltered-in-place. 
+This page describes Lumeris' COVID-19 predictive analytics program, provides links to our code repository, and offers the actual model for free within your own EHR.  The predictive model identifies people with a high risk of COVID-related adverse events such as emergency hospitalizations.  We are assessing the possibility of future updates that may include additional adverse events such as likelihood of ICU and death or other tools to aid with managing the COVID-19 crisis.  Medical and/or non-medical staff (such as social workers) at private and public health systems, provider offices, and clinics can outreach to these high-risk people proactively.  It is expected that through that engagement the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood that the person can remain at home sheltered-in-place. 
 
 The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, telehealth, or messages via the EHR's patient portal. 
 
-The analytics can be deployed within any EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In additional, this first model release has analytics that were simplified such that most any authorized EHR user can enter the parameters; staff from the IT Department aren’t necessarily required.   
+The analytics can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In additional, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.   
 
 All of the information here including in the associated support pages, and on Github, is being made freely-available under our [open source license](https://github.com/Lumeris-Health/Covid/blob/master/LICENSE).   
 
 ## Instructions
-**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into almost any EHR manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).**
+**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into most EHRs manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).**
 
 The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv).
 
@@ -36,9 +36,7 @@ The number of people in the validation dataset is 789k.  Data is from January 20
 | Hypertension | 12.8% |
 | Hospitalizations | 1.26% or 12.6 per 1000 |
 
-Additional information on the demographics is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/extendedDemographics.csv). 
-
-Note: The dataset used to train models can impact outcomes and efficacy of interventions, etc., and it's important to know how population differences can impact results.  In preparing our work we noticed that there are other organizations also creating and releasing free open source models.  We did some basic due diligence on one model that seems to have gotten some traction in the marketplace.  But when we tested it across our whole population we found that **the accuracy of that model for people who are under age 65 yo is worse than random chance.  Given this, providers would be better off not using that model at all!!!**  We don’t know the exact reason for this issue, but we suspect that it is because their model was based on CMS claims data from 2015 and 2016, a dataset that primarily has people who are mostly over the age 65 yo.  We notified this company privately but do not know their response yet. 
+Additional information on the demographics is available in Github [here](https://github.com/Lumeris-Health/Covid/blob/master/extendedDemographics.csv).  
 
 ### Model Details 
 
@@ -81,9 +79,9 @@ There may be important details from that published paper that make such a compar
 
 Given the model performance above, economic modeling of the breakeven costs shows that providers will “come out ahead” economically if they use our models.
 
-We converted the breakeven analysis to answer the question, if an organization's effectiveness at reducing admission turns out to be low (they can reduce admissions 25%), moderate (50%), or high (75%), how much money can they spend on the proactive outreach and still come out ahead?  The **higher that dollar amount the better the predictive model** since there would be more money to spend and still be "profitable".  Our analysis showed that for an organization that's moderately effective at reducing admission (50% effective) for people in the Top 1% highest risk group, they can still come out ahead using our model if they spend up to $1,382 per person (the breakeven for low and highly successful programs is $691 and $2,073, respectively).  
+We converted the breakeven analysis to answer the question, if an organization's effectiveness at reducing admission turns out to be low (they can reduce admissions 25%), moderate (50%), or high (75%), how much money can they spend on the proactive outreach and still come out ahead?  The **higher that dollar amount the better the predictive model** since there would be more money to spend and still be "profitable".  Our analysis showed that for an organization that's moderately effective at reducing admission (50% effective) for people in the Top 1% highest risk group, they can still come out ahead using our model if they spend up to $1,382 per person (the estimated breakeven for low and highly successful programs is $691 and $2,073, respectively).  
 
-Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
+Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can generally spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
 
 The breakeven point for the cost of interventions toward the Top 1% and Top 5% are shown in the table below: 
 
@@ -112,7 +110,6 @@ Predictive models in general, including ours, are far from perfect.  The lack of
 
 
 
-
 **If you have questions or suggestions please send an email to: [Covid Predictive Analytics](mailto:info@lumeris.com?subject=[GitHub]%20Covid%20Predictive%20Analytics).**
 
 
@@ -123,3 +120,4 @@ Predictive models in general, including ours, are far from perfect.  The lack of
 
 
 
+****Note: The COVID-19 predictive analytics program and the information described herein is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment.****
