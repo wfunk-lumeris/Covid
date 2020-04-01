@@ -11,7 +11,7 @@ The analytics can be deployed within most EHR's population health platform inclu
 All of the information here including in the associated support pages, and on Github, is being made freely-available under our [open source license](https://github.com/Lumeris-Health/Covid/blob/master/LICENSE).   
 
 ## Instructions
-**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into most EHRs manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).**
+**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into most EHRs manually by a non-technical person.  For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  For most organizations, deployment should take less than 60 minutes.  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).**
 
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
