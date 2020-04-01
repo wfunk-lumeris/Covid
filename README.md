@@ -50,7 +50,7 @@ Additional information about this model are available in our [public Github repo
 
 ### Model Performance 
 
-Predictive models in general, including this one, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested this model and it is far better than guessing.  Given this, it can serve as the basis for proactive outreach to people who are high risk.
+Predictive modeling accuracy is an important factor and not academic:  Lower accuracy means that resources are wasted on people who are not truly high risk, and lower accuracy means that fewer people who are truly high risk will be correctly identified.  At the risk of being overly-dramatic, in our COVID-19 crisis this lower accuracy can translate to more deaths.
 
 We evaluate performance using standard statistical tools applied to validation or “hold out” data sets – data that the computer algorithms did not have access to during the training of the model.  We do this in order to avoid overly optimistic estimates of accuracy.  Here we provide the overall accuracy (c-statistic, also known as area under the curve or AUC) together with sensitivity and positive predictive values (PPV) and sensitivities for the top 1% and 5% of the population for the prediction of COVID-19 related hospitalizations: 
 
@@ -79,9 +79,11 @@ We performed a good faith effort to apply that model in the best way possible, b
 
 There may be important details from that published paper that make such a comparison specious, but it nevertheless helped us believe that we were contributing positively to the healthcare community and society at large by publishing our model.
 
-Predictive modeling accuracy is an important factor and not academic:  Lower accuracy means that resources are wasted on people who are not truly high risk, and lower accuracy means that fewer people who are truly high risk will be correctly identified.  At the risk of being overly-dramatic, in our COVID-19 crisis this lower accuracy can translate to more deaths.
+Given the model performance above, economic modeling of the breakeven costs shows that providers will “come out ahead” economically if they use our models.
 
-Given the model performance above, economic modeling of the breakeven costs shows that providers will “come out ahead” economically if his/her engagement outreach to the top 1% is moderately effective and costs less than $1,382 (the breakeven for low and highly successful programs is $691 and $2,073, respectively).  Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
+We converted the breakeven analysis to answer the question, if an organization's effectiveness at reducing admission turns out to be low (they can reduce admissions 25%), moderate (50%), or high (75%), how much money can they spend on the proactive outreach and still come out ahead?  The **higher that dollar amount the better the predictive model** since there would be more money to spend and still be "profitable".  Our analysis showed that for an organization that's moderately effective at reducing admission (50% effective) for people in the Top 1% highest risk group, they can still come out ahead using our model if they spend up to $1,382 per person (the breakeven for low and highly successful programs is $691 and $2,073, respectively).  
+
+Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
 
 The breakeven point for the cost of interventions toward the Top 1% and Top 5% are shown in the table below: 
 
@@ -96,7 +98,7 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
 * Assumes COVID-19 hospitalization costs $20,000 based on approximately $2,200/day for 9 days 
 * All values in US dollars
 
-For comparison we did the same breakeven analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy resulted in lower breakeven points.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 46% less money available ($1382 vs $740) to achieve their 50% effectiveness rate.  The details are in the table below:
+For comparison we did the same economic analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy meant that the organization had a smaller amount of money they could spend and still come out ahead.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 46% less money available ($1382 vs $740) to achieve their 50% effectiveness rate.  The details for that comparator model are in the table below:
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
 | Clinical Success: | | |
@@ -105,7 +107,7 @@ For comparison we did the same breakeven analysis using model based on the data 
 |          High (75% reduction in hospitalizations) | $1,110 | $443 |
 
 
-Taken together, these analyses support our view that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
+Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing.  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
 
 
 
