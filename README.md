@@ -4,7 +4,7 @@ We understand that you, your staff, and your community are under stress during t
 
 This page describes Lumeris' COVID-19 predictive analytics program, provides links to our code repository, and offers the actual model for free within your own EHR.  The predictive model identifies people at highest risk of COVID-related adverse events such as emergency hospitalizations (our next update will have other adverse events such as likelihood of ICU and death).  Medical and/or non-medical staff (such as social workers) at private and public health systems, provider organizations, and clinics can outreach to these high-risk people proactively.  It is expected that through that engagement that the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood of that the person can remain at home sheltered-in-place. 
 
-The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, or messages via the EHR's patient portal. 
+The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, telehealth, or messages via the EHR's patient portal. 
 
 The analytics can be deployed within any EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In additional, this first model release has analytics that were simplified such that most any authorized EHR user can enter the parameters; staff from the IT Department aren’t necessarily required.   
 
