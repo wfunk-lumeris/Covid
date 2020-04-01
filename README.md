@@ -11,7 +11,7 @@ The analytics can be deployed within any EHR's population health platform includ
 All of the information here including in the associated support pages, and on Github, is being made freely-available under our [open source license](https://github.com/Lumeris-Health/Covid/blob/master/LICENSE).   
 
 ## Instructions
-This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into almost any EHR manually by a non-technical person. For example, the model variables and points can be typed directly into Healthy Planet to create a patient registry.  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf). 
+**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into almost any EHR manually by a non-technical person. For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/howTo.pdf).
 
 The model variables and points in the PDF are also viewable/downloadable in Excel via this link [here](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv).
 
@@ -49,6 +49,8 @@ We trained models on both the likelihood of hospitalization and the likelihood o
 Additional information about this model are available in our [public Github repository](https://github.com/Lumeris-Health/Covid).   
 
 ### Model Performance 
+
+Predictive models in general, including this one, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested this model and it is far better than guessing.  Given this, it can serve as the basis for proactive outreach to people who are high risk.
 
 We evaluate performance using standard statistical tools applied to validation or “hold out” data sets – data that the computer algorithms did not have access to during the training of the model.  We do this in order to avoid overly optimistic estimates of accuracy.  Here we provide the overall accuracy (c-statistic, also known as area under the curve or AUC) together with sensitivity and positive predictive values (PPV) and sensitivities for the top 1% and 5% of the population for the prediction of COVID-19 related hospitalizations: 
 
