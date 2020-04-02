@@ -1,4 +1,17 @@
-# Lumeris' COVID-19 Predictive Analytics
+# Lumeris' Open Source COVID-19 Predictive Analytics
+
+## Predicting likelihood of hospitalization during the pandemic 
+
+#### Key points:
+#### 1. We created a simple predictive model that identifies patients at high risk of hospitalization due to existing conditions, who are also at risk for severe disease and death due to coronavirus infection. 
+#### 2. The code is available under an open source license and available free of charge.
+#### 3. The predictive model can be used with data from your EHR and/or from claims.
+#### 4. It can be deployed within EHRs within about 60 minutes.
+#### 5. It does not perfectly predict hospitalizations, but testing shows that it is better than guessing and other methods known to us.
+#### 6. We will update the model as new data is available (signup for updates by emailing the word "updates" to info@lumeris.com).
+#### 7. The intended use of the model is to identify the highest risk patients in your population so you can plan engagement and interventions that address their medical and social risks, and potentially prevent hospitalizations.
+ 
+ 
  
 We understand that you, your staff, and your community are under stress during this time and we wish to do our part to help you care for your sickest patients.  We know that in some communities, PCPs and clinic staff are being **under-utilized or furloughed**; we see opportunities for those teams to support proactive management to keep people as healthy as possible and at home.  This of course helps reduce constraints on valuable hospital beds and medical equipment including ventilators.
 
@@ -26,7 +39,7 @@ This is a simple model with just [18 variables](https://github.com/Lumeris-Healt
 
 ### Applicable Population 
 
-Although the model was built on a small portion of the US population, in our judgment it can be applied to people of all ages (between 0 to 114 yo) and both males and females. 
+Although the model was built on a small portion of the US population, in our judgment it can be applied to people of all ages (between 0 to 114 yo) and both males and females.  We have not tested it on data outside the US but believe it should be generally applicable internationally provided the use of ICD codes (we are happy to do further development on international data, please contact us at info@lumeris.com).
 
 The number of people in the validation dataset is 789k.  Data is from January 2018 thru March 24, 2020.  The demographics of the people utilized in the validation dataset are below: 
 
