@@ -143,7 +143,7 @@ Predictive models in general, including ours, are far from perfect.  The lack of
 
 **If you questions or suggestions please feel to add info to our [COVID-19 Analytics wiki page](https://github.com/Lumeris-Health/Covid/wiki) or send an email to info@lumeris.com.
 
-**If you want updates to the model as we make improvements or add new models, please send an email to: info@lumeris.com.
+**If you want updates to the model as we make improvements or add new models, please send an email that contains the word "updates" to: info@lumeris.com.
 
 
 
