@@ -7,7 +7,7 @@
 #### 2. The code is available under an open source license and available free of charge.
 #### 3. The predictive model can be used with data from your EHR and/or from claims.
 #### 4. It can be deployed within EHRs within about 60 minutes.
-#### 5. It does not perfectly predict hospitalizations, but testing shows that it is better than guessing and other methods known to us.
+#### 5. It does not predict hospitalizations perfectly, but testing shows that it is better than guessing and other methods known to us.
 #### 6. We will update the model as new data is available (signup for updates by emailing the word "updates" to info@lumeris.com).
 #### 7. The intended use of the model is to identify the highest risk patients in your population so you can plan engagement and interventions that address their medical and social risks, and potentially prevent hospitalizations.
  
