@@ -135,7 +135,8 @@ The impact that proactive outreach with a low, moderate, and high reduction on h
 | Low (25% reduction in hospitalizations) |    3.1 | 24 | 42 |
 | Moderate (50% reduction in hospitalizations) | 6.3 | 48 | 84 |
 | High (75% reduction in hospitalizations) | 9.4 | 71 | 127 |
-****Example:  For an organization that is "only" 25% effective at reducing hospitalization through proactive engagement, deployment of the Lumeris Model will reduce 42 bed days/month for every 100 patients engaged****
+
+*Example from table:  For an organization that is "only" 25% effective at reducing hospitalization through proactive engagement, deployment of the Lumeris Model will reduce 42 bed days/month for every 100 patients engaged*
 
 Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
 
