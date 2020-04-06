@@ -19,9 +19,9 @@ Lumeris' COVID-19 response solution (summarized [here](https://www.lumeris.com/c
 
 Medical and/or non-medical staff (such as social workers) at private and public health systems, provider offices, and clinics can outreach to these high-risk people proactively.  The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, telehealth, or messages via the EHR's patient portal. It is expected that through that engagement the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood that the person can remain at home sheltered-in-place.
 
-This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 35 bed days/month.**
+This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 42 bed days/month.**
 
-The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 19 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save 2-3 bed days/month.
+The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save around 3 bed days/month.
 
 The predictive models can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
 
@@ -69,7 +69,7 @@ We evaluate performance using standard statistical tools applied to validation o
 
  | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
-| 0.833 |     0.141 | 0.138 | 0.387 | 0.075 |
+| 0.830 |     0.134 | 0.169 | 0.373 | 0.094 |
 
 The receiver operator characteristics (ROC) curve is below: 
 ![alt text][logo]
@@ -82,13 +82,13 @@ The performance of our model is relatively strong.  As a check on ourselves and 
 
  | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
-| 0.754 |     0.076 | 0.074 | 0.240 | 0.047 |
+| 0.754 |     0.076 | 0.095 | 0.240 | 0.060 |
 
 In comparing the performance between our model and the Challenger Model, our model outpeformed the comparator model by a considerable amount.  This table shows the percent outperformance between our model and the one published in The Lancet:
 
 | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
-| +13% |     +131% | +259% | +84% | +186% |
+| +10% |     +76% | +78% | +55% | +57% |
 
 There may be important details from that published paper that make such a comparison specious, but it nevertheless helped us believe that we were contributing positively to the healthcare community and society at large by publishing our model.
 
@@ -126,19 +126,19 @@ For comparison we did the same economic analysis using model based on the data i
 
 Again, those economic analyses are overly simplistic; but hopefully this information can be combined with an organizations' specific data to help decision-makers assess the value of proactive outreach. 
 
-We also looked at the impact of proactive outreach on hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, every 100 people proactively engaged will save 35 bed days/month.  Using these same assumptions, using the Challenger Model described above there is only a reduction of 19 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save 2-3 bed days/month.
+We also looked at the impact of proactive outreach on hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, every 100 people proactively engaged will save 42 bed days/month.  Using these same assumptions, using the Challenger Model described above there is only a reduction of 19 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save around 3 bed days/month.
 
 The impact that proactive outreach with a low, moderate, and high reduction on hospitalizations and subsequent bed days/month is shown in the table below:
 
 | Clinical Success | Guessing | Challenger Model | Lumeris Model |
 | :------------- |:-------------:|:-------------:|:-------------:|
-| Low (25% reduction in hospitalizations) |    2.4 | 19 | 35 |
-| Moderate (50% reduction in hospitalizations) | 4.9 | 37 | 69 |
-| High (75% reduction in hospitalizations) | 7.3 | 56 | 104 |
+| Low (25% reduction in hospitalizations) |    3.2 | 24 | 42 |
+| Moderate (50% reduction in hospitalizations) | 6.3 | 48 | 84 |
+| High (75% reduction in hospitalizations) | 9.5 | 71 | 127 |
 
-*Example from table:  For an organization that is "only" 25% effective at reducing hospitalization of the highest risk tier through proactive engagement, deployment of the Lumeris Model will reduce 35 bed days/month for every 100 patients engaged*
+*Example from table:  For an organization that is "only" 25% effective at reducing hospitalization of the highest risk tier through proactive engagement, deployment of the Lumeris Model will reduce 42 bed days/month for every 100 patients engaged*
 
-Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free 2-3 bed days/month versus using this model may free 35 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
+Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free around 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
 
 
 
