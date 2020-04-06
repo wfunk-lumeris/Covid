@@ -82,7 +82,7 @@ The performance of our model is relatively strong.  As a check on ourselves and 
 
  | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
-| 0.732 |     0.058 | 0.047 | 0.202 | 0.032 |
+| 0.754 |     0.076 | 0.074 | 0.240 | 0.047 |
 
 In comparing the performance between our model and the Challenger Model, our model outpeformed the comparator model by a considerable amount.  This table shows the percent outperformance between our model and the one published in The Lancet:
 
@@ -126,19 +126,19 @@ For comparison we did the same economic analysis using model based on the data i
 
 Again, those economic analyses are overly simplistic; but hopefully this information can be combined with an organizations' specific data to help decision-makers assess the value of proactive outreach. 
 
-We also looked at the impact of proactive outreach on hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, every 100 people proactively engaged will save 42 bed days/month.  Using these same assumptions, using the Challenger Model described above there is only a reduction of 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save about 3 bed days/month.
+We also looked at the impact of proactive outreach on hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, every 100 people proactively engaged will save 35 bed days/month.  Using these same assumptions, using the Challenger Model described above there is only a reduction of 19 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save 2-3 bed days/month.
 
 The impact that proactive outreach with a low, moderate, and high reduction on hospitalizations and subsequent bed days/month is shown in the table below:
 
 | Clinical Success | Guessing | Challenger Model | Lumeris Model |
 | :------------- |:-------------:|:-------------:|:-------------:|
-| Low (25% reduction in hospitalizations) |    3.1 | 24 | 42 |
-| Moderate (50% reduction in hospitalizations) | 6.3 | 48 | 84 |
-| High (75% reduction in hospitalizations) | 9.4 | 71 | 127 |
+| Low (25% reduction in hospitalizations) |    2.4 | 19 | 35 |
+| Moderate (50% reduction in hospitalizations) | 4.9 | 37 | 69 |
+| High (75% reduction in hospitalizations) | 7.3 | 56 | 104 |
 
-*Example from table:  For an organization that is "only" 25% effective at reducing hospitalization of the highest risk tier through proactive engagement, deployment of the Lumeris Model will reduce 42 bed days/month for every 100 patients engaged*
+*Example from table:  For an organization that is "only" 25% effective at reducing hospitalization of the highest risk tier through proactive engagement, deployment of the Lumeris Model will reduce 35 bed days/month for every 100 patients engaged*
 
-Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
+Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free 2-3 bed days/month versus using this model may free 35 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
 
 
 
