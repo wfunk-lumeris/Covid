@@ -21,7 +21,7 @@ Medical and/or non-medical staff (such as social workers) at private and public 
 
 This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 35 bed days/month.**
 
-The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save about 3 bed days/month.
+The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 19 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save 2-3 bed days/month.
 
 The predictive models can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
 
