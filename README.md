@@ -107,22 +107,22 @@ The breakeven point for the cost of interventions toward the Top 1% and Top 5% a
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
 | Clinical Success^: | | |
-|          Low (25% reduction in hospitalizations) | $691 | $225 |
-|          Moderate (50% reduction in hospitalizations) | $1,382 | $450 |
-|          High (75% reduction in hospitalizations) | $2,073 | $676 |
+|          Low (25% reduction in hospitalizations) | $844 | $281 |
+|          Moderate (50% reduction in hospitalizations) | $1,688 | $563 |
+|          High (75% reduction in hospitalizations) | $2,533 | $844 |
 
-* ^ Clinical success refers to the percentage reduction in hospitalizations due to the outreach, assumed to be a reduction in hospitalizations by either 25%, 50%, or 75%.  For example, an organization that uses these predictive analytics to outreach to the Top 1% highest risk people, and has the ability to reduce hospitalizations by 50%, can spend up to $1,382 on achieving that outcome and still breakeven (this analysis does not accounting for reimbursement by payers, relieve relief funding from the US government, or other complexities, ; but this analysisit does provide a basis for decision-making regarding the amount of money to spend on outreach). 
+* ^ Clinical success refers to the percentage reduction in hospitalizations due to the outreach, assumed to be a reduction in hospitalizations by either 25%, 50%, or 75%.  For example, an organization that uses these predictive analytics to outreach to the Top 1% highest risk people, and has the ability to reduce hospitalizations by 50%, can spend up to $1,688 on achieving that outcome and still breakeven (this analysis does not accounting for reimbursement by payers, relieve relief funding from the US government, or other complexities, ; but this analysisit does provide a basis for decision-making regarding the amount of money to spend on outreach). 
 * Assumes COVID-19 hospitalization costs $20,000 based on approximately $2,200/day for 9 days 
 * All values in US dollars
 
-For comparison we did the same economic analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy meant that the organization had a smaller amount of money they could spend and still come out ahead.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 46% less money available ($1382 vs $740) to achieve their 50% effectiveness rate.  The details for that comparator model are in the table below:
+For comparison we did the same economic analysis using model based on the data in The Lancet.  Not surprisingly, the lower predictive model accuracy meant that the organization had a smaller amount of money they could spend and still come out ahead.  For example, if an organization chooses to intervene with the Top 1% of highest risk people, they'll have about 44% less money available ($1688 vs $953) to achieve their 50% effectiveness rate.  The details for that comparator model are in the table below:
 
  | Characteristic | Top 1%  | Top 5%  |
 | :------------- |:-------------:| :-------------:|
 | Clinical Success: | | |
-|          Low (25% reduction in hospitalizations) | $370 | $148 |
-|          Moderate (50% reduction in hospitalizations) | $740 | $295 |
-|          High (75% reduction in hospitalizations) | $1,110 | $443 |
+|          Low (25% reduction in hospitalizations) | $476 | $219 |
+|          Moderate (50% reduction in hospitalizations) | $953 | $437 |
+|          High (75% reduction in hospitalizations) | $1,429 | $656 |
 
 Again, those economic analyses are overly simplistic; but hopefully this information can be combined with an organizations' specific data to help decision-makers assess the value of proactive outreach. 
 
