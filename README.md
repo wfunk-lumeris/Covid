@@ -19,7 +19,7 @@ Lumeris' COVID-19 response solution (summarized [here](https://www.lumeris.com/c
 
 Medical and/or non-medical staff (such as social workers) at private and public health systems, provider offices, and clinics can outreach to these high-risk people proactively.  The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, telehealth, or messages via the EHR's patient portal. It is expected that through that engagement the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood that the person can remain at home sheltered-in-place.
 
-This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 42 bed days/month.**
+This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 35 bed days/month.**
 
 The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save about 3 bed days/month.
 
