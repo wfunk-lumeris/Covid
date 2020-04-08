@@ -1,45 +1,47 @@
-# Lumeris' Open Source COVID-19 Predictive Analytics
+# Lumeris' Open Source COVID-19 Hospitalization Index
 
 ## Predicting likelihood of hospitalization during the pandemic 
 
 #### Key points:
-#### 1. We created a simple predictive model that identifies patients at high risk of hospitalization due to existing conditions, who are also at risk for severe disease and death due to coronavirus infection. 
+#### 1. We created a simple predictive model called the COVID-19 Hospitalization Index that identifies patients at high risk of hospitalization due to existing conditions, who are also at risk for severe disease and death due to coronavirus infection. 
 #### 2. The code is available under an open source license and available free of charge.
-#### 3. The predictive model can be used with data from your EHR and/or from claims.
+#### 3. The Index can be used with data from your EHR and/or from claims.
 #### 4. It can be deployed within EHRs within about 60 minutes.
 #### 5. It does not predict hospitalizations perfectly, but testing shows that it is better than guessing and other methods known to us.
 #### 6. We will update the model as new data is available (signup for updates by emailing the word "updates" to info@lumeris.com).
-#### 7. The intended use of the model is to identify the highest risk patients in your population so you can plan engagement and interventions that address their medical and social risks, and potentially prevent hospitalizations.
+#### 7. The intended use of the COVID-19 Hospitalization Index is to identify the highest risk patients in your population so you can plan engagement and interventions that address their medical and social risks, and potentially prevent hospitalizations.
  
  
  
 We understand that you, your staff, and your community are under stress during this time and we wish to do our part to help you care for your sickest patients.  We know that in some communities, PCPs and clinic staff are being **under-utilized or furloughed**; we see opportunities for those teams to support proactive management to keep people as healthy as possible and at home.  This of course helps reduce constraints on valuable hospital beds and medical equipment including ventilators.
 
-Lumeris' COVID-19 response solution (summarized [here](https://www.lumeris.com/covid-19-response-solution/)) includes our COVID-19 predictive analytics program, and here we provide links to our code repository, and offer the actual COVID-19 predictive model for free within your own EHR.  We have a freely-available open source predictive model that identifies patients at high risk of hospitalization due to existing conditions, who are also at risk for severe disease and death due to coronavirus infection.  In addition, we are assessing the possibility of future updates that may include additional adverse events such as likelihood of ICU and death or other tools to aid with managing the COVID-19 crisis.  
+Lumeris' COVID-19 response solution (summarized [here](https://www.lumeris.com/covid-19-response-solution/)) includes our COVID-19 Hospitalization Index, our COVID-19 predictive analytics program, and here we provide links to our code repository, and offer the actual COVID-19 Hospitalization Index scoring model for free within your own EHR.  We have a freely-available open source COVID-19 Hospitalization Index identifies patients at high risk of hospitalization due to existing conditions, who are also at risk for severe disease and death due to coronavirus infection.  In addition, we are assessing the possibility of future updates that may include additional adverse events such as likelihood of ICU and death or other tools to aid with managing the COVID-19 crisis.  
 
 Medical and/or non-medical staff (such as social workers) at private and public health systems, provider offices, and clinics can outreach to these high-risk people proactively.  The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, telehealth, or messages via the EHR's patient portal. It is expected that through that engagement the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood that the person can remain at home sheltered-in-place.
 
 This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 42 bed days/month.**
 
-The model accuracy isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save around 3 bed days/month.
+The accuracy of the COVID-19 Hospitalization Index isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save around 3 bed days/month.
 
-The predictive models can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
+The Index can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
 
 Of course proactive outreach driven by our predictive model won’t solve the entirety of the COVID-19 crisis, but we are hopeful that there is benefit to freeing up some beds.
 
 All of the information here including in the associated support pages, and on Github, is being made freely-available under our [open source license](https://github.com/Lumeris-Health/Covid/blob/master/LICENSE).   
 
 ## Instructions
-**This model was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into most EHRs manually by a non-technical person.  For example, the model variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  For most organizations, deployment should take less than 60 minutes.  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/INSTRUCTIONS.pdf).**
+**This COVID-19 Hospitalization Index was purposely made to be simple to use a points system analogous to Weight Watchers so that it can be typed into most EHRs manually by a non-technical person.  For example, the variables and points can be typed directly into Epic's Healthy Planet to create a patient registry (as well as most any EHR that has a module for population health).  For most organizations, deployment should take less than 60 minutes.  A PDF that provides a brief overview and instructions, including the variables and points to create the registry in your EHR, is [here](https://github.com/Lumeris-Health/Covid/blob/master/INSTRUCTIONS.pdf).**
+
+**We created a Frequently Asked Questions (FAQs) repository which is available [here](https://github.com/Lumeris-Health/Covid/blob/master/FAQs.pdf).  If you have other questions, feel free to ask them by sending an email to info@lumeris.com.**
 
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
 
-This is a simple model with just [18 variables](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv) that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is for ED visits that are followed by a discharge, not just standalone ED visits).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
+This is a simple algorithm with just [18 variables](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv) that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is for ED visits that are followed by a discharge, not just standalone ED visits).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
 
 ### Applicable Population 
 
-Although the model was built on a small portion of the US population, in our judgment it can be applied to people of all ages (between 0 to 114 yo) and both males and females.  We have not tested it on data outside the US but believe it should be generally applicable internationally provided the use of ICD codes (we are happy to do further development on international data, please contact us at info@lumeris.com).
+Although the predictive model used to create the COVID-19 Hospitalization Index was built on a small portion of the US population, in our judgment it can be applied to people of all ages (between 0 to 114 yo) and both males and females.  We have not tested it on data outside the US but believe it should be generally applicable internationally provided the use of ICD codes (we are happy to do further development on international data, please contact us at info@lumeris.com).
 
 The number of people in the validation dataset is 789k.  Data is from January 2018 thru March 24, 2020.  The demographics of the people utilized in the validation dataset are below: 
 
@@ -78,7 +80,7 @@ The receiver operator characteristics (ROC) curve is below:
 
 The results are also available as a table [here](https://github.com/Lumeris-Health/Covid/blob/master/rocTable.csv). 
 
-The performance of our model is relatively strong.  As a check on ourselves and to ascertain whether we were adding value if we released our model, we compared the performance of our model to one built from the criteria published in that Lancet article mentioned.  To be clear, and to emphasize, we created a model using just the variables listed in that article, which we refer to as the "Challenger Model", and it was **not** the case that the authors of the article published a model.  With this as context, these are the performance statistics for the Challenger Model to predict hospitalizations:
+The performance of our COVID-19 Hospitalization Index is relatively strong.  As a check on ourselves and to ascertain whether we were adding value if we released our model, we compared the performance of our model to one built from the criteria published in that Lancet article mentioned.  To be clear, and to emphasize, we created a model using just the variables listed in that article, which we refer to as the "Challenger Model", and it was **not** the case that the authors of the article published a model.  With this as context, these are the performance statistics for the Challenger Model to predict hospitalizations:
 
  | Characteristic | Top 1% Sensitivity  | Top 1% PPV  | Top 5% Sensitivity | Top 5% PPV
 | :-------------: |:-------------:|:-------------:|:-------------:|:-------------:|
@@ -100,7 +102,7 @@ The economic analysis, which relied on simplistic assumptions, showed that provi
 
 In other words we answered, if an organization's effectiveness at reducing admission turns out to be low, moderate, or high, how much money can they spend on the proactive outreach and still come out ahead?  The **higher that dollar amount the better the predictive model** since there would be more money to spend and still be "profitable".  Our analysis showed that for an organization that's moderately effective at reducing admission (50% effective) for people in the Top 1% highest risk group, they can still come out ahead using our model if they spend up to $1,382 per person (the estimated breakeven for low and highly successful programs is $691 and $2,073, respectively).  
 
-Said a different way, organizations using this predictive model to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can generally spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
+Said a different way, organizations using this COVID-19 Hospitalization Index to engage with the top 1% highest risk people in their population to reduce hospitalizations by 50%, can generally spend up to $1,382 per person to achieve that objective and still breakeven.  Of course, this economic analysis does not include the humanistic value of helping people stay safely at home avoiding adverse events, as well as the ability to free up system capacity for anticipated surges in hospitalizations during the COVID-19 epidemic.
 
 The breakeven point for the cost of interventions toward the Top 1% and Top 5% are shown in the table below: 
 
@@ -130,7 +132,7 @@ We also looked at the impact of proactive outreach on hospital bed capacity:  Fo
 
 The impact that proactive outreach with a low, moderate, and high reduction on hospitalizations and subsequent bed days/month is shown in the table below:
 
-| Clinical Success | Guessing | Challenger Model | Lumeris Model |
+| Clinical Success | Guessing | Challenger Model | Hospitalization Index |
 | :------------- |:-------------:|:-------------:|:-------------:|
 | Low (25% reduction in hospitalizations) |    3.2 | 24 | 42 |
 | Moderate (50% reduction in hospitalizations) | 6.3 | 48 | 84 |
@@ -138,7 +140,7 @@ The impact that proactive outreach with a low, moderate, and high reduction on h
 
 *Example from table:  For an organization that is "only" 25% effective at reducing hospitalization of the highest risk tier through proactive engagement, deployment of the Lumeris Model will reduce 42 bed days/month for every 100 patients engaged*
 
-Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free around 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that our model will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
+Predictive models in general, including ours, are far from perfect.  The lack of perfection falls into several categories including, overlooking patients who are truly high risk and misidentifying patients as high risk who are not truly high risk.  Some models provide results that are worse than merely guessing at who is high risk, while others vastly exceed the probabilities of guessing.  Fortunately, there are ways to quantify whether a model is better or worse than guessing.  We tested our model and it is far better than guessing (as described above, guessing at high risk cases and outreaching may free around 3 bed days/month versus using this model may free 42 bed days/month).  Given this, we're confident that the COVID-19 Hospitalization Index will improve the ability of providers to support proactive management to keep people as healthy as possible and at home.
 
 
 
