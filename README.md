@@ -6,7 +6,7 @@
 #### 1. We created a simple predictive model called the COVID-19 Hospitalization Index that identifies patients at high risk of hospitalization due to existing conditions, who are also at risk for severe disease and death due to coronavirus infection. 
 #### 2. The code is available under an open source license and available free of charge.
 #### 3. The Index can be used with data from your EHR and/or from claims.
-#### 4. It can be deployed within EHRs within about 60 minutes.
+#### 4. It can be deployed within EHRs in about 60 minutes.
 #### 5. It does not predict hospitalizations perfectly, but testing shows that it is better than guessing and other methods known to us.
 #### 6. We will update the model as new data is available (signup for updates by emailing the word "updates" to info@lumeris.com).
 #### 7. The intended use of the COVID-19 Hospitalization Index is to identify the highest risk patients in your population so you can plan engagement and interventions that address their medical and social risks, and potentially prevent hospitalizations.
@@ -19,7 +19,7 @@ Lumeris' COVID-19 response solution (summarized [here](https://www.lumeris.com/c
 
 Medical and/or non-medical staff (such as social workers) at private and public health systems, provider offices, and clinics can outreach to these high-risk people proactively.  The engagement driven by these predictive analytics can be conducted via various channels including phone calls, text messages, telehealth, or messages via the EHR's patient portal. It is expected that through that engagement the staff can identify challenges the person may be facing that, if addressed, can reduce the likelihood of that person having an adverse event such as hospitalization and increase the likelihood that the person can remain at home sheltered-in-place.
 
-This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 42 bed days/month.**
+This proactive outreach can free up hospital bed capacity:  For example, given an organization whose proactive outreach to the predicted highest risk tier (top 1% highest risk) can reduce hospitalizations by 25%, **every 100 people proactively engaged will save 52 bed days/month.**
 
 The accuracy of the COVID-19 Hospitalization Index isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save around 3 bed days/month.
 
@@ -37,7 +37,7 @@ All of the information here including in the associated support pages, and on Gi
 ## Detail
 ### Model 1.  Predicting COVID-19 related hospitalizations 
 
-This is a simple algorithm with just [18 variables](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv) that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is for ED visits that are followed by a discharge, not just standalone ED visits).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
+This is a simple algorithm with just [26 variables](https://github.com/Lumeris-Health/Covid/blob/master/modelParameters.csv) that performs well at predicting the likelihood of all-cause emergency hospitalizations in the next 90 days for people particularly susceptible to COVID-19.  Emergency hospitalizations are defined as ED visits that are followed by an IP admission (the prediction is for ED visits that are followed by a discharge, not just standalone ED visits).  It predicts the hospitalizations for people especially susceptible to COVID-19 based on the latest data published by the CDC [here](https://www.cdc.gov/coronavirus/2019-ncov/index.html) and in The Lancet [here](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext). 
 
 ### Applicable Population 
 
