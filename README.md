@@ -23,7 +23,7 @@ This proactive outreach can free up hospital bed capacity:  For example, given a
 
 The accuracy of the COVID-19 Hospitalization Index isn’t perfect, but it’s better than what we’ve found published elsewhere.  Using the same assumptions as above, a model built from criteria published March 11 in [The Lancet](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext) would save only 24 bed days/month.  Finally, applying the same outreach assumptions but simply guessing would most likely only save around 3 bed days/month.
 
-The Index can be deployed within most EHR's population health platform including Cerner’s Millennium, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
+The Index can be deployed within most EHR's population health platform including Cerner’s HealtheIntent, Athena, eClinicalWorks, and Epic’s Healthy Planet.  In addition, this first model release has analytics that were simplified such that most authorized EHR users can enter the parameters; staff from the IT Department aren’t necessarily required.  For most organizations, deployment should take less than 60 minutes.   
 
 Of course proactive outreach driven by our predictive model won’t solve the entirety of the COVID-19 crisis, but we are hopeful that there is benefit to freeing up some beds.
 
